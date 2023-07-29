@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "649161605908",
+    "firebase_url": "https://fyp-echeckin-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "fyp-echeckin",
+    "storage_bucket": "fyp-echeckin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:649161605908:android:6bc662a52e16c54219b801",
+        "android_client_info": {
+          "package_name": "com.example.fyp_echeckin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "649161605908-q7tq11bcmua50o72mookukn7tprj7v99.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWeNq9Hy_dmG_uRKdbD0h0oM_PmoGltaI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "649161605908-q7tq11bcmua50o72mookukn7tprj7v99.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/rNumLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Room Number:"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+
+    <EditText
+        android:id="@+id/rNum_check"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:padding="10dp"
+        android:background="@drawable/lilac_border"
+        android:inputType="number"
+        android:hint="Enter the room number" />
+
+    <TextView
+        android:id="@+id/lNameLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Last Name:"
+        android:textAlignment="center"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:textSize="24sp"
+        android:textStyle="italic" />
+
+    <EditText
+        android:id="@+id/lName_check"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:padding="10dp"
+        android:background="@drawable/lilac_border"
+        android:inputType="text"
+        android:hint="Enter the last name" />
+
+    <TextView
+        android:id="@+id/infolabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter room number and last name to access this feature"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:layout_marginTop="10dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+
+</LinearLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fypbg"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="150dp"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:text="Welcome To E-CheckIn"
+            android:textAlignment="center"
+            android:textColor="#0B0101"
+            android:textSize="48sp"
+            android:textStyle="bold" />
+
+
+        <Button
+            android:id="@+id/main_Loginbtn"
+            android:layout_width="350dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="80dp"
+            android:text="Login"
+            android:textSize="18sp"
+            app:cornerRadius="30dp" />
+
+        <Button
+            android:layout_width="350dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="10dp"
+            android:text="Make Reservation"
+            android:id="@+id/main_MakeReservbtn"
+            android:textSize="18sp"
+            app:cornerRadius = "30dp"/>
+
+        <Button
+            android:layout_width="350dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="10dp"
+            android:text="Other Functions"
+            android:id="@+id/main_OtherFcntBtn"
+            android:textSize="18sp"
+            app:cornerRadius = "30dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+    <!--    https://www.freepik.com/free-photos-vectors/lilac-background : background reference-->

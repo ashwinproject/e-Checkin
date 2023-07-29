@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fypbg"
+    tools:context=".homeHub">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="60dp"
+        android:padding="23dp">
+
+        <TextView
+            android:id="@+id/header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="2dp"
+            android:fontFamily="cursive"
+            android:text="E-CheckIn"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="#000000"
+            android:textSize="48sp"
+            android:textStyle="bold"
+            android:typeface="normal" />
+
+        <Button
+            android:layout_width="350dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="10dp"
+            android:text="Front Office "
+            android:id="@+id/homeHubFrontOffice"
+            android:textSize="18sp"
+            app:cornerRadius = "30dp"/>
+        <Button
+            android:layout_width="350dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="10dp"
+            android:text="Reservation"
+            android:id="@+id/reservationBtnHome"
+            android:textSize="18sp"
+            app:cornerRadius = "30dp"/>
+        <Button
+            android:layout_width="350dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="10dp"
+            android:text="Maintenance"
+            android:id="@+id/maintBtnHome"
+            android:textSize="18sp"
+            app:cornerRadius = "30dp"/>
+
+        <Button
+            android:layout_width="350dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="10dp"
+            android:text="Housekeeping"
+            android:id="@+id/houseBtnHome"
+            android:textSize="18sp"
+            app:cornerRadius = "30dp"/>
+
+        <Button
+            android:layout_width="350dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="10dp"
+            android:text="Create a user"
+            android:id="@+id/makeUserBtnHome"
+            android:textSize="18sp"
+            app:cornerRadius = "30dp"/>
+
+        <Button
+            android:layout_width="350dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="10dp"
+            android:text="Guest Requests"
+            android:id="@+id/guestRequestBtnHome"
+            android:textSize="18sp"
+            app:cornerRadius = "30dp"/>
+
+        <TextView
+            android:id="@+id/currentDate"
+            android:layout_width="350dp"
+            android:layout_height="67dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textSize="34sp" />
+
+        <TextClock
+            android:id="@+id/textClock"
+            android:layout_width="350dp"
+            android:layout_height="67dp"
+            android:layout_centerHorizontal="true"
+            android:format12Hour="hh:mm:ss a"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+</ScrollView>

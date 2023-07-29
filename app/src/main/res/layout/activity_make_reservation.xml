@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fypbg"
+    tools:context=".makeReservation">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="cursive"
+            android:gravity="center"
+            android:text="Make a Reservation"
+            android:textSize="48sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:id="@+id/reserv_fName"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/lilac_border"
+            android:padding="20dp"
+            android:hint="First name"
+            android:drawableLeft="@drawable/baseline_person_24"
+            android:drawablePadding="8dp"
+            android:textColor="@color/grey"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:id="@+id/reserv_LName"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/lilac_border"
+            android:padding="20dp"
+            android:hint="Last name"
+            android:drawableLeft="@drawable/baseline_person_24"
+            android:drawablePadding="8dp"
+            android:textColor="@color/grey"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:id="@+id/reserv_email"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/lilac_border"
+            android:inputType="textEmailAddress"
+            android:padding="20dp"
+            android:hint="Email"
+            android:drawableLeft="@drawable/baseline_email_24"
+            android:drawablePadding="8dp"
+            android:textColor="@color/grey"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:id="@+id/reserv_phone"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/lilac_border"
+            android:padding="20dp"
+            android:hint="Phone no."
+            android:inputType="phone"
+            android:drawableLeft="@drawable/baseline_contact_phone_24"
+            android:drawablePadding="8dp"
+            android:textColor="@color/grey"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:id="@+id/reserv_city"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/lilac_border"
+            android:padding="20dp"
+            android:hint="Address"
+            android:inputType="textPostalAddress"
+            android:drawableLeft="@drawable/baseline_location_city_24"
+            android:drawablePadding="8dp"
+            android:textColor="@color/grey"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="8dp"
+            android:text="Check-in Date"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <DatePicker
+            android:id="@+id/reserv_checkIndate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:calendarViewShown="false"
+            android:minDate="2023/04/02"
+            android:maxDate="2025/12/31"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Check-out Date"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <DatePicker
+            android:id="@+id/reserv_checkOutdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:calendarViewShown="true"
+
+            android:minDate="2023/04/03"
+            android:maxDate="2026/01/01"
+            android:layout_marginBottom="16dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:id="@+id/reserv_creditCard"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/lilac_border"
+            android:padding="20dp"
+            android:hint="Credit Card Number"
+            android:inputType="numberDecimal"
+            android:drawableLeft="@drawable/baseline_credit_card_24"
+            android:drawablePadding="8dp"
+            android:textColor="@color/grey"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:id="@+id/reserv_expiryDate"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/lilac_border"
+            android:padding="20dp"
+            android:hint="Expiry Date"
+            android:inputType="numberDecimal"
+            android:drawableLeft="@drawable/baseline_credit_card_24"
+            android:drawablePadding="8dp"
+            android:textColor="@color/grey"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:id="@+id/reserv_cvv"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/lilac_border"
+            android:padding="20dp"
+            android:hint="CVV"
+            android:inputType="numberDecimal"
+            android:drawableLeft="@drawable/baseline_credit_card_24"
+            android:drawablePadding="8dp"
+            android:textColor="@color/grey"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/lilac_border"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:padding="20dp"
+                android:text="Choose your room details:"
+                android:textAlignment="center"
+                android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/bed_type_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/reserv_singleBed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Single Bed" />
+
+            <RadioButton
+                android:id="@+id/reserv_doubleBed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Double Bed" />
+        </RadioGroup>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:text="Number of guests:"
+                android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/reserv_numbOfGuest"
+            android:layout_width="match_parent"
+            android:layout_height="45dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:text="Choose your room type:"
+                android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/reserv_roomType"
+            android:layout_width="match_parent"
+            android:layout_height="45dp" />
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="350dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="20dp"
+            android:text="Reserve room"
+            android:id="@+id/reserv_MakeReservBtn"
+            android:textSize="18sp"
+            app:cornerRadius = "30dp"/>
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>

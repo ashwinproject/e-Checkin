@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/guestbg"
+    tools:context=".guestSignup">
+
+<!--    image reference : https://desenio.co.uk/p/posters-prints/white-sand/-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="100dp"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/guestSignUpTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="2dp"
+            android:fontFamily="cursive"
+            android:text="E-CheckIn: Guest"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="#000000"
+            android:textSize="48sp"
+            android:textStyle="bold"
+            android:typeface="normal" />
+
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:id="@+id/signup_email_guest"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/lilac_border"
+            android:padding="20dp"
+            android:hint="Email"
+            android:drawableLeft="@drawable/baseline_email_24"
+            android:drawablePadding="8dp"
+            android:textColor="@color/grey"/>
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:id="@+id/signup_password_guest"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/lilac_border"
+            android:padding="20dp"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:drawableLeft="@drawable/baseline_lock_24"
+            android:drawablePadding="8dp"
+            android:textColor="@color/grey"/>
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:id="@+id/signup_confirm_guest"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/lilac_border"
+            android:padding="20dp"
+            android:hint="Confirm Password"
+            android:inputType="textPassword"
+            android:drawableLeft="@drawable/baseline_password_24"
+            android:drawablePadding="8dp"
+            android:textColor="@color/grey"/>
+
+        <Button
+            android:layout_width="350dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="10dp"
+            android:text="Sign Up"
+            android:id="@+id/signup_button_guest"
+            android:textSize="18sp"
+            app:cornerRadius = "30dp"/>
+
+    </LinearLayout>
+
+
+</ScrollView>

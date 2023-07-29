@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Fyp-ECheckIn</string>
+
+    <string-array name="room_numbers">
+        <item>101</item>
+        <item>102</item>
+        <item>103</item>
+        <item>104</item>
+        <item>105</item>
+        <item>106</item>
+        <item>107</item>
+        <item>108</item>
+        <item>109</item>
+        <item>110</item>
+    </string-array>
+
+    <string-array name="maint_Issues">
+        <item>Lighting</item>
+        <item>Plumbing</item>
+        <item>Furniture</item>
+        <item>Air Condition</item>
+        <item>Damaged Carpet</item>
+        <item>Tv or Phone</item>
+        <item>Window or Door</item>
+        <item>Internet connection</item>
+        <item>Noise</item>
+        <item>Safe</item>
+        <item>Elevator</item>
+        <item>Other - Please write a description</item>
+    </string-array>
+
+
+</resources>
